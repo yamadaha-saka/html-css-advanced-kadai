@@ -1,12 +1,12 @@
 body {
-  font-family: "Source Sans pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Hiragino kaku Gothic ProN", Meiryo, Arial, sans-serif;
 }
 
 p {
 font-size: 15px;
 }
 
-#main-visual>img {
+#main-visual img {
   width: 100%;
 }
 
@@ -30,29 +30,25 @@ header {
   padding-top: 15px;
 }
 
-#nav-pc > a {
+#nav-pc a {
   text-decoration: none;
   margin-left: 20px;
 }
 
-#nav-pc > a:link {
+#nav-pc a:link {
   color: #0d0d0d;
 }
 
-#nav-pc  > a:hover {
+#nav-pc  a:hover {
   color: #0d0d0d;
   text-decoration: underline;
 }
 
-#nav-pc > a:active {
+#nav-pc a:active {
   color: #0d0d0d;
 }
 
-#menu-sp {
-  display: none;
-}
-
-#nav-sp {
+#menu-sp,#nav-sp {
   display: none;
 }
 }

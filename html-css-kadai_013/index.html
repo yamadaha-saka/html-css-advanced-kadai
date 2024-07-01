@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>organic cafe</title>
+    <title>>organic cafe</title>
+    <meta charset="utf-8">
     <meta name="description" content="自家焙煎のコーヒーがお家で楽しめるorganic cafe">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
@@ -28,11 +29,14 @@
       <button id="close" onclick="document.getElementById('nav-sp').style.display = 'none'">
         <img src="images/button-close.png" alt="ナビゲーションを閉じる">
       </button>
+      <button id="logo-sp" onclick="document.getElementById('nav-sp').style.display = 'none'">
+        <a href="index.html" id="logo"><img src="images/logo-sp.png" alt="トップページに戻る"></a>
+      </button>
       <nav>
         <ul>
-          <li><a class="menu" href="index.html#concept">CONCEPT</a></li>
-          <li><a class="menu" href="index.html#product">PRODUCT</a></li>
-          <li><a class="menu" href="index.html#contact">CONTACT</a></li>
+          <li><a class="menu" href="index.html#concept" onclick="document.getElementById('nav-sp').style.display = 'none'">CONCEPT</a></li>
+          <li><a class="menu" href="index.html#product" onclick="document.getElementById('nav-sp').style.display = 'none'">PRODUCT</a></li>
+          <li><a class="menu" href="index.html#contact" onclick="document.getElementById('nav-sp').style.display = 'none'">CONTACT</a></li>
         </ul>
       </nav>
     </div>
