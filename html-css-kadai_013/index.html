@@ -20,26 +20,25 @@
     </nav>
 
     <!--スマートフォン用メニューボタン-->
-    <button id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'">
-      <img src="images/button-menu.png" alt="ナビゲーションを開く">
-    </button>
+    <a id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'">
+    <img src="images/button-menu.png" alt="ナビゲーションを開く">
+    </a>
 
     <!--スマートフォン用ナビゲーション-->
     <div id="nav-sp">
-      <button id="close" onclick="document.getElementById('nav-sp').style.display = 'none'">
+      <a id="close" onclick="document.getElementById('nav-sp').style.display = 'none'">
         <img src="images/button-close.png" alt="ナビゲーションを閉じる">
-      </button>
-      <button id="logo-sp" onclick="document.getElementById('nav-sp').style.display = 'none'">
+      </a>
+      <a id="logo-sp" onclick="document.getElementById('nav-sp').style.display = 'none'">
         <a href="index.html" id="logo"><img src="images/logo-sp.png" alt="トップページに戻る"></a>
-      </button>
+      </a>
       <nav>
-        <ul>
-          <li><a class="menu" href="index.html#concept" onclick="document.getElementById('nav-sp').style.display = 'none'">CONCEPT</a></li>
-          <li><a class="menu" href="index.html#product" onclick="document.getElementById('nav-sp').style.display = 'none'">PRODUCT</a></li>
-          <li><a class="menu" href="index.html#contact" onclick="document.getElementById('nav-sp').style.display = 'none'">CONTACT</a></li>
-        </ul>
+
+        <a class="menu" href="index.html#concept" onclick="document.getElementById('nav-sp').style.display = 'none'">CONCEPT</a>
+        <a class="menu" href="index.html#product" onclick="document.getElementById('nav-sp').style.display = 'none'">PRODUCT</a>
+        <a class="menu" href="index.html#contact" onclick="document.getElementById('nav-sp').style.display = 'none'">CONTACT</a>
+        
       </nav>
-    </div>
     </header>
     <main>
       <article>

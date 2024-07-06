@@ -54,10 +54,21 @@ header {
 }
 
 /*スマートフォン用スタイル*/
-@media screen and (max-width:767px) {
+@media (max-width:768px) {
   body {
     min-width: 375px;
     margin: 0;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header, .main .footer {
+    width: 100%;
   }
 
   #nav-pc {
